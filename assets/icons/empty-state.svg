@@ -1,0 +1,42 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <!-- Background circle -->
+    <circle cx="100" cy="100" r="95" fill="#f0f4f8" opacity="0.5"/>
+    
+    <!-- Checklist item 1 -->
+    <g transform="translate(50, 60)">
+        <!-- Checkbox -->
+        <rect x="0" y="0" width="20" height="20" rx="3" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+        <!-- Line -->
+        <line x1="30" y1="10" x2="70" y2="10" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Checklist item 2 -->
+    <g transform="translate(50, 95)">
+        <!-- Checkbox with checkmark -->
+        <rect x="0" y="0" width="20" height="20" rx="3" fill="#10b981" stroke="#10b981" stroke-width="2"/>
+        <!-- Checkmark -->
+        <path d="M 4 10 L 8 14 L 16 6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <!-- Line -->
+        <line x1="30" y1="10" x2="70" y2="10" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Checklist item 3 -->
+    <g transform="translate(50, 130)">
+        <!-- Checkbox -->
+        <rect x="0" y="0" width="20" height="20" rx="3" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+        <!-- Line -->
+        <line x1="30" y1="10" x2="70" y2="10" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Plus icon (floating) -->
+    <g transform="translate(130, 50)">
+        <circle cx="0" cy="0" r="18" fill="#3b82f6" opacity="0.1"/>
+        <line x1="-8" y1="0" x2="8" y2="0" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="0" y1="-8" x2="0" y2="8" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Decorative elements -->
+    <circle cx="140" cy="140" r="3" fill="#3b82f6" opacity="0.4"/>
+    <circle cx="160" cy="150" r="2" fill="#10b981" opacity="0.4"/>
+    <circle cx="150" cy="170" r="2.5" fill="#3b82f6" opacity="0.3"/>
+</svg>
